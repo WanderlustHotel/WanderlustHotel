@@ -1,28 +1,30 @@
 import React from 'react';
 import { images } from '../images/images';
-
+import { FaBed, FaBath, FaWifi, FaTv, FaSnowflake, FaRegWindowMinimize, FaCity } from 'react-icons/fa';
+import { Gi3dGlasses , GiIsland, GiWineGlass } from 'react-icons/gi';
+import { AiOutlineSound ,AiOutlineApartment } from 'react-icons/ai';
 const SuperiorRoom3 = () => {
     return (
       <section className="bg-gray-100 py-10 px-5 md:px-20">
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
       {/* Tiêu đề */}
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Superior Room for 3 people</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Superior Room</h2>
       <img src={images.superior3people} alt="Wanderlust Hotel" class="w-full h-auto" />
         <div className='flex mt-9'>
         <div className="mb-8 w-1/2">
           <h3 className="text-xl font-semibold text-gray-700">Room Features</h3>
           <ul className="mt-4 space-y-2 text-gray-600">
-            <li>1 single bed and 1 large double bed</li>
-            <li>33m² room</li>
-            <li>Sea view</li>
-            <li>City view</li>
-            <li>Balcony</li>
-            <li>Air conditioning</li>
-            <li>Private bathroom</li>
-            <li>Flat-screen TV</li>
-            <li>Soundproofing</li>
-            <li>Minibar</li>
-            <li>Free wifi</li>
+            <li><FaBed className="inline-block mr-2 text-blue-500" /> 1 large double bed</li>
+            <li><FaRegWindowMinimize className="inline-block mr-2 text-blue-500" /> 36m² room</li>
+            <li><GiIsland className="inline-block mr-2 text-blue-500" /> Sea view</li>
+            <li><FaCity className="inline-block mr-2 text-blue-500" /> City view</li>
+            <li><AiOutlineApartment className="inline-block mr-2 text-blue-500" /> Balcony</li>
+            <li><FaSnowflake className="inline-block mr-2 text-blue-500" /> Air conditioning</li>
+            <li><FaBath className="inline-block mr-2 text-blue-500" /> Private bathroom</li>
+            <li><FaTv className="inline-block mr-2 text-blue-500" /> Flat-screen TV</li>
+            <li><AiOutlineSound className="inline-block mr-2 text-blue-500" /> Soundproofing</li>
+            <li><GiWineGlass className="inline-block mr-2 text-blue-500" /> Minibar</li>
+            <li><FaWifi className="inline-block mr-2 text-blue-500" /> Free wifi</li>
           </ul>
         </div>
 

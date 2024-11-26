@@ -1,51 +1,95 @@
-import React from "react";
-import ImageCard from "../components/ImageCard";
-import { images } from "../images/images";
+import React from 'react';
 
-const services = () => {
+const Services = () => {
   return (
-    <div className="bg-gray-100 p-8">
-      <h1 className="text-4xl font-bold text-center mb-10">Services & Amenities</h1>
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Spa Services</h2>
-        <h3 className="text-xl font-semibold text-gray-700">Ultimate Relaxation at Serenity Spa</h3>
-        <p className="text-gray-600 mt-2">
-          At Wanderlust Spa, we invite you to indulge in a flawless relaxation experience with our premier health and beauty treatments. Our dedicated and professional staff is ready to cater to your needs with our standout offerings:
-        </p>
-        <ul className="text-gray-600 mt-4 space-y-2">
-          <li>• <span className="font-semibold">Operating Hours:</span> 11:00 AM - 6:00 PM daily.</li>
-          <li>• <span className="font-semibold">Relaxation Massage:</span> A 60-minute session designed to alleviate stress and relax your muscles, priced at only 800,000 VND.</li>
-          <li>• <span className="font-semibold">Aromatherapy Treatment:</span> Utilizing natural essential oils, this 90-minute treatment enhances mood and promotes well-being, available for just 1,200,000 VND.</li>
-          <li>• <span className="font-semibold">Facial Care:</span> An intensive skincare program with organic products, providing a radiant complexion, priced at only 700,000 VND for 60 minutes.</li>
-        </ul>
-        <p className="text-gray-600 mt-4">
-          The spa's luxurious ambiance, accompanied by soothing music and natural fragrances, will ensure the utmost tranquility for you. Additionally, we offer supplementary services such as nail care and hair treatments.
-        </p>
-        <div className="mt-3 grid grid-cols-1 md:grid-cols-4 gap-4">
-              <ImageCard image={images.spa3}/>
-              <ImageCard image={images.spa4}/>
-              <ImageCard image={images.spa5}/>
-              <ImageCard image={images.spa6}/>
-            </div>
-      </section>
-
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Pool</h2>
-        <h3 className="text-xl font-semibold text-gray-700">Infinity Pool at Sky Pool</h3>
-        <p className="text-gray-600 mt-2">
-          Our infinity pool, located on the hotel’s rooftop, provides stunning views of the sea and cityscape, making it the perfect oasis for relaxation after a day of exploration.
-        </p>
-        <ul className="text-gray-600 mt-4 space-y-2">
-          <li>• <span className="font-semibold">Operating Hours:</span> 7:00 AM - 9:00 PM daily.</li>
-          <li>• <span className="font-semibold">Amenities:</span> Sun loungers, a bar area serving refreshing beverages, and complimentary towels. We also host poolside parties and special events regularly.</li>
-        </ul>
-        <div className="max-w-4xl overflow-hidden rounded-lg shadow-lg m-auto">
-          <img src={images.pool2} alt="123" className="w-full h-auto object-cover" />
+    <div className="bg-gray-100 px-6 py-12">
+      <div className="mb-6">
+        <h2 className="text-2xl font-bold mb-4 text-center">AMENITIES</h2>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div>
+            <h3 className="font-semibold">Accommodation Options:</h3>
+            <p>Variety of rooms with standard features like comfortable beds, smart TVs, and beach views.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Dining Options:</h3>
+            <p>Access to restaurants and bars for guest use.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Swimming Pool:</h3>
+            <p>Outdoor pool available for relaxation.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Spa:</h3>
+            <p>Unwind with our range of spa treatments</p>
+          </div>
+          <div className="md:col-span-2">
+            <h3 className="font-semibold">Meeting Rooms:</h3>
+            <p>Spaces available for use by guests for events.</p>
+          </div>
         </div>
-      </section>
+      </div>
+
+      <div className="mb-6">
+        <h2 className="text-2xl font-bold mb-4 text-cente">OUR SERVICES</h2>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div>
+            <h3 className="font-semibold">Transportation Services:</h3>
+            <p>To make your travels effortless and comfortable, our hotel provides convenient pick-up and drop-off services from the airport, train station, and renowned attractions in the city. Our professional and friendly drivers are always ready to greet and assist you.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Laundry Services:</h3>
+            <p>We understand that during your travels, you require attentive care and fresh attire. Our laundry service ensures your clothing is always pristine and well-organized, utilizing a professional process and eco-friendly products.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Luggage Storage:</h3>
+            <p>If you arrive early or wish to explore Nha Trang after check-out, our luggage storage service will provide you peace of mind. Your belongings will be securely and conveniently stored, allowing you to enjoy your exploration without worry.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">24-Hour Multilingual Concierge Team:</h3>
+            <p>Always available to assist you with any requests or inquiries.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">24-Hour In-Room Dining:</h3>
+            <p>Enjoy meals and refreshments in the comfort of your room at any time.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Daily Housekeeping:</h3>
+            <p>Twice-daily housekeeping, including evening turndown service.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Event and Meeting Services:</h3>
+            <p>Conference rooms and event planning support, such as catering and audio-visual equipment setup.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">On-Site Parking:</h3>
+            <p>Convenient parking facilities for guest vehicles.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold">Security Services:</h3>
+            <p>On-site security personnel and surveillance for guest safety.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 className="text-2xl font-bold mb-4 text-cente">COMPLIMENTARY SERVICES</h2>
+        <div className="grid grid-cols-2 grid-rows-2 gap-4">
+          <div className="flex items-center justify-center p-4 bg-gray-400 rounded">
+            <span className="text-center">Multilingual Concierge</span>
+          </div>
+          <div className="flex items-center justify-center p-4 bg-gray-400 rounded">
+            <span className="text-center">Premium Wi-Fi</span>
+          </div>
+          <div className="flex items-center justify-center p-4 bg-gray-400 rounded">
+            <span className="text-center">High-end Toiletries</span>
+          </div>
+          <div className="flex items-center justify-center p-4 bg-gray-400 rounded">
+            <span className="text-center">Turn Down Service</span>
+          </div>
+        </div>
+      </div>
     </div>
-    
   );
 };
 
-export default services;
+export default Services;

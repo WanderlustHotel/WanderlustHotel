@@ -39,7 +39,7 @@ export default function App() {
       
       <Routes>
         {/* Route không thuộc về main-content-container */}
-        <Route path="/vietnamonline.com" element={<Vietnamonline />} />
+        <Route path="/vietnamonline" element={<Vietnamonline />} />
 
         <Route
           path="*"

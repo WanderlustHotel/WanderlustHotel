@@ -85,7 +85,7 @@ const Homepage = () => {
       We are honored to be recognized as one of the best hotels in Nha Trang, Vietnam, by Vietnamonline Travel Guide for the New Decade.
     </p>
     <div className="flex">
-    <a href="/vietnamonline.com" className="text-blue-600 underline text-center mt-6 text-xl mx-auto">Read more</a>
+    <a href="/vietnamonline" className="text-blue-600 underline text-center mt-6 text-xl mx-auto">Read more</a>
     </div>
       </div>
       <div className="w-1/2 p-4">

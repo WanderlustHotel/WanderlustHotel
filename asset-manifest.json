@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/WanderlustHotel/static/css/main.d17febca.css",
-    "main.js": "/WanderlustHotel/static/js/main.04b909ce.js",
+    "main.js": "/WanderlustHotel/static/js/main.f3ed1ff9.js",
     "static/js/453.3fa03080.chunk.js": "/WanderlustHotel/static/js/453.3fa03080.chunk.js",
     "static/media/Skybar2.jpeg": "/WanderlustHotel/static/media/Skybar2.e98f6cd7aded296df26c.jpeg",
     "static/media/Skybar3.jpeg": "/WanderlustHotel/static/media/Skybar3.4ce811fcade9ff1cbe4c.jpeg",
     "static/media/meeting1.jpeg": "/WanderlustHotel/static/media/meeting1.e28cd1995d1334ffed6c.jpeg",
     "static/media/ddr2.jpeg": "/WanderlustHotel/static/media/ddr2.51abdfa13b9c6d8712e0.jpeg",
+    "static/media/Abfuturevision.jpeg": "/WanderlustHotel/static/media/Abfuturevision.7213ebd0f1f1c3e8a05e.jpeg",
     "static/media/VNO_Citadines Bayfront Nha Trang.png": "/WanderlustHotel/static/media/VNO_Citadines Bayfront Nha Trang.66c96a11b688fe173591.png",
     "static/media/dtr4.jpeg": "/WanderlustHotel/static/media/dtr4.168f4910de4e14ed0a0c.jpeg",
     "static/media/dtr3.jpeg": "/WanderlustHotel/static/media/dtr3.a8c06699716115169e91.jpeg",
@@ -29,6 +30,7 @@
     "static/media/RoomTwin.jpg": "/WanderlustHotel/static/media/RoomTwin.c3f64c7b96b004c33169.jpg",
     "static/media/str4.jpeg": "/WanderlustHotel/static/media/str4.c3f64c7b96b004c33169.jpeg",
     "static/media/dr3.jpeg": "/WanderlustHotel/static/media/dr3.89dd3e5a39682be0a3c6.jpeg",
+    "static/media/Abhowwesuceed.jpeg": "/WanderlustHotel/static/media/Abhowwesuceed.811450acde329bdaf85a.jpeg",
     "static/media/pool10.jpeg": "/WanderlustHotel/static/media/pool10.4eae1b092d8203ab2afa.jpeg",
     "static/media/VNO_Queen Ann Nha Trang Hotel.jpg": "/WanderlustHotel/static/media/VNO_Queen Ann Nha Trang Hotel.ba40a21f0405e9f4a9e8.jpg",
     "static/media/pool5.jpeg": "/WanderlustHotel/static/media/pool5.828daf1d4b5bf83f737b.jpeg",
@@ -40,6 +42,7 @@
     "static/media/ddr1.jpeg": "/WanderlustHotel/static/media/ddr1.47c0aa3293716d652bf0.jpeg",
     "static/media/minibeachss.jpeg": "/WanderlustHotel/static/media/minibeachss.d61ed69fd8f32a090281.jpeg",
     "static/media/VNO_Amiana Resort Nha Trang.jpg": "/WanderlustHotel/static/media/VNO_Amiana Resort Nha Trang.08ef8bb5d768e5fc8e05.jpg",
+    "static/media/Abmission.jpeg": "/WanderlustHotel/static/media/Abmission.c39569e27a5675f607b5.jpeg",
     "static/media/OfWork.jpeg": "/WanderlustHotel/static/media/OfWork.15cc8ff76536918c8547.jpeg",
     "static/media/xq3.jpg": "/WanderlustHotel/static/media/xq3.9c4c88ca896ab27b8416.jpg",
     "static/media/OfHoneymoon.jpeg": "/WanderlustHotel/static/media/OfHoneymoon.00428c3e5a5db7cb8ffe.jpeg",
@@ -55,6 +58,7 @@
     "static/media/Vinpearl.jpeg": "/WanderlustHotel/static/media/Vinpearl.b45d5b3ad8657b278fcd.jpeg",
     "static/media/CoAperol.jpeg": "/WanderlustHotel/static/media/CoAperol.fc7292e35faa08fb1076.jpeg",
     "static/media/FBeef.jpeg": "/WanderlustHotel/static/media/FBeef.8bebbe0f949090f05e24.jpeg",
+    "static/media/Abcorevalue.jpeg": "/WanderlustHotel/static/media/Abcorevalue.e518e55a1e59bcceade6.jpeg",
     "static/media/spa10.jpeg": "/WanderlustHotel/static/media/spa10.7d87dbe66b40434ecc8d.jpeg",
     "static/media/nhatho.jpeg": "/WanderlustHotel/static/media/nhatho.d2945c59c1bd5e72c1fc.jpeg",
     "static/media/VNO_Ariyana Smart Condotel Nha Trang.jpg": "/WanderlustHotel/static/media/VNO_Ariyana Smart Condotel Nha Trang.a0df05c1fa0102995680.jpg",
@@ -74,6 +78,7 @@
     "static/media/Suite Executive 4.jpg": "/WanderlustHotel/static/media/Suite Executive 4.3842bdb8b4487c65c927.jpg",
     "static/media/buf2.jpeg": "/WanderlustHotel/static/media/buf2.9808fe73fab25f691610.jpeg",
     "static/media/weare.jpeg": "/WanderlustHotel/static/media/weare.9c3e972a6e550bebe358.jpeg",
+    "static/media/Abthefounder.jpeg": "/WanderlustHotel/static/media/Abthefounder.0aa5bb3e4c33f36ed931.jpeg",
     "static/media/dr1.jpeg": "/WanderlustHotel/static/media/dr1.3157da4f7872b240e036.jpeg",
     "static/media/Suite Executive 3.jpg": "/WanderlustHotel/static/media/Suite Executive 3.1d19d501a39765d9adfc.jpg",
     "static/media/pool9.jpeg": "/WanderlustHotel/static/media/pool9.b34e6e830767ffeaeb14.jpeg",
@@ -157,11 +162,11 @@
     "static/media/IconBar.png": "/WanderlustHotel/static/media/IconBar.ce132fac2c40f0ea36e5.png",
     "index.html": "/WanderlustHotel/index.html",
     "main.d17febca.css.map": "/WanderlustHotel/static/css/main.d17febca.css.map",
-    "main.04b909ce.js.map": "/WanderlustHotel/static/js/main.04b909ce.js.map",
+    "main.f3ed1ff9.js.map": "/WanderlustHotel/static/js/main.f3ed1ff9.js.map",
     "453.3fa03080.chunk.js.map": "/WanderlustHotel/static/js/453.3fa03080.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d17febca.css",
-    "static/js/main.04b909ce.js"
+    "static/js/main.f3ed1ff9.js"
   ]
 }
